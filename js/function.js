@@ -29,6 +29,7 @@ function submitFunction() {
             erro = true;
             $('.submit span').css('display', 'inline-block');
             $('form input[type=email]').css({ 'background-color': 'hsl(4, 88%, 77%)','border': '1px solid hsl(4, 100%, 67%)' });
+            
             setTimeout(function () {
                 $('.submit span').css('display', 'none');
                 $('form input[type=email]').css({ 'background-color': 'white','border': '1px solid #ccc' });
