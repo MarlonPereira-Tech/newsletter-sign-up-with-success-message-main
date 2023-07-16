@@ -33,16 +33,37 @@
                     
                 </div><!--list-->
                 <div class="submit">
-                    <p>Email address</p>
-                    <input type="email" name="email" placeholder="your email here:">
-                    <input type="submit" name="action" value="  Subscribe to monthly newsletter">
+                        <p>Email address</p>
+                        
+                        <span style="color:hsl(4, 100%, 67%)">Valid email required</span>
+                        <form>
+                            <input type="email" name="email" placeholder="your email here:" >
+                            <input type="submit" name="action" value="Subscribe to monthly newsletter">
+                        </form>
+                    
                 </div>
             </div><!--info-->
             <div class="image">
 
             </div>
         </div><!--container-->
+        <div class="sucess-box">
+            <div class="info-sucess-box">
+                <span><img src="images/icon-list.svg"></span>
+                <h3>Thanks for subscribing!</h3>
+                <p>A confirmation email has been sent to <span>ash@loremcompany.com.</span> 
+                Please open it and click the button inside to confirm your subscription.
+                </p>
+                <input type="submit" name="action" value="Dismiss message">
+            </div>
+        </div>
+        <footer class="attribution">
+            <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</p> 
+            <p>Coded by <a href="https://www.linkedin.com/in/marlon-de-oliveira-pereira-996096282/">Marlon Pereira</a>.</p>
+            <div class="clear"></div>
+        </footer>
     </main>
-    
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="js/function.js"></script>
 </body>
 </html>
