@@ -194,10 +194,23 @@ footer a{
         padding-top: 30px;
         width:94%;
         max-width:500px;
-        margin:2% auto;
+        margin: 2% auto;
     }
+    .submit input[type=email]{
+        width:95%;
+        height:48px;
+        
+    }
+    
+    
+    .submit input[type=submit]{
+        width:95%;
+        height:48px;
+       
+    }
+  
     .info h2,p{
-        text-align: center;
+        text-align: left;
     }
     .list-single{
         text-align: center;
