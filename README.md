@@ -23,6 +23,6 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 ## Author
 
 - Website -(https://github.com/MarlonPereira-Tech)
-- Frontend Mentor - [@Marlon Pereira](https://www.frontendmentor.io/profile/MarlonPereira)
+- Frontend Mentor -(https://www.frontendmentor.io/profile/MarlonPereira-Tech)
 - Linkedin -(https://www.linkedin.com/in/marlon-de-oliveira-pereira-996096282/)
 
